@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: demo
+  datasource:
+    url: jdbc:postgresql://localhost:5432/sandbox
+    username: ${JDBC_USER}
+    password: ${JDBC_PASSWORD}
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
