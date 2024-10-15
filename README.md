@@ -22,8 +22,8 @@
    [Getting Started with Spring Security — Spring Documentation](https://docs.spring.io/spring-security/reference/servlet/getting-started.html)  
    Документация по началу работы с Spring Security. Описание основных концепций безопасности, интеграции с Spring Boot и базовой настройки аутентификации и авторизации.
 
-7. **Импорт/Экспорт коллекций для Postman**
-   [how-to-import-export-collections-in-postman](https://www.geeksforgeeks.org/how-to-import-export-collections-in-postman/)
+7. **Импорт/Экспорт коллекций для Postman**  
+   [how-to-import-export-collections-in-postman](https://www.geeksforgeeks.org/how-to-import-export-collections-in-postman/)  
    Краткое руководство по импорту и экспорту коллекций в Postman.
 
 ---
