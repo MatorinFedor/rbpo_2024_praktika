@@ -71,6 +71,10 @@
    [how-to-import-export-collections-in-postman](https://www.geeksforgeeks.org/how-to-import-export-collections-in-postman/)  
    Краткое руководство по импорту и экспорту коллекций в Postman.
 
+8. **UML диаграммы**  
+   [Хабр. Обзор 14 диаграмм UML](https://habr.com/ru/articles/508710/)  
+   Информация про UML и разные типы диаграмм.
+
 ---
 
 ### Примечание:
