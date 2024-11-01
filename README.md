@@ -39,7 +39,7 @@
 
 # Задание 5*  
 Реализовать в коде следующую структуру таблиц
-![Alt text](images/tables.png)
+![Alt text](images/license_ER.png)
 
 # Полезные ссылки
 
