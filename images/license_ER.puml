@@ -1,0 +1,90 @@
+@startuml
+
+entity "License" {
+  * id : Long
+  --
+  code : String
+  user_id : Long
+  product_id : Long
+  type_id : Long
+  first_activation_date : Date
+  ending_date : Date
+  blocked : Boolean
+  device_count : Integer
+  owner_id : Long
+  duration : Integer
+  description : String
+}
+
+entity "Product" {
+  * id : Long
+  --
+  name : String
+  is_blocked : Boolean
+}
+
+entity "LicenseType" {
+  * id : Long
+  --
+  name : String
+  default_duration : Integer
+  description : String
+}
+
+entity "User" {
+  * id : Long
+  --
+  login : String
+  password_hash : String
+  email : String
+  role_id : Integer
+}
+
+entity "Device" {
+  * id : Long
+  --
+  name : String
+  mac_address : String
+  user_id : Long
+}
+
+entity "DeviceLicense" {
+  * id : Long
+  --
+  license_id : Long
+  device_id : Long
+  activation_date : Date
+}
+
+entity "LicenseHistory" {
+  * id : Long
+  --
+  license_id : Long
+  user_id : Long
+  status : String
+  change_date : Date
+  description : String
+}
+
+entity "Role" {
+  * id : Integer
+  --
+  name : String
+}
+
+' Связи
+License "0..*" --> "1" User : "user_id"
+License "0..*" --> "1" Product : "product_id"
+License "0..*" --> "1" LicenseType : "type_id"
+License "0..*" --> "1" User : "owner_id" [label="owner_id"]
+
+DeviceLicense "0..*" --> "1" License : "license_id"
+DeviceLicense "0..*" --> "1" Device : "device_id"
+
+LicenseHistory "0..*" --> "1" License : "license_id"
+LicenseHistory "0..*" --> "1" User : "user_id"
+
+User "0..*" --> "1" Role : "role_id"
+Device "0..*" --> "1" User : "user_id"
+
+@enduml
