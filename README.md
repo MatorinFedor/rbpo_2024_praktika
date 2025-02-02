@@ -98,6 +98,9 @@
    [Хабр. Обзор 14 диаграмм UML](https://habr.com/ru/articles/508710/)  
    Информация про UML и разные типы диаграмм.
 
+9. **Работа с SSL**  
+   [TLS/SSL и сертификаты SSL (X.509)](https://www.opennet.ru/docs/RUS/ldap_apacheds/tech/ssl.html)  
+   Информация по PKI и сертификатам.
 ---
 
 ### Примечание:
