@@ -116,6 +116,10 @@
 9. **Работа с SSL**  
    [TLS/SSL и сертификаты SSL (X.509)](https://www.opennet.ru/docs/RUS/ldap_apacheds/tech/ssl.html)  
    Информация по PKI и сертификатам.
+
+10. **Keytool**  
+   [Статья про keytool на хабр](https://habr.com/ru/articles/446322/)  
+   [Документация Keytool](https://docs.oracle.com/javase/8/docs/technotes/tools/windows/keytool.html)  
 ---
 
 ### Примечание:
