@@ -13,3 +13,12 @@ spring:
 jwt:
   secret: MatorinFedorAndreevichBIB101200000
   expiration: 3600000
+
+server:
+  port: 8443
+  ssl:
+    enabled: true
+    key-store: classpath:server.jks
+    key-store-type: JKS
+    key-store-password: serverPass
+    key-alias: server
